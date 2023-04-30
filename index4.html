@@ -23,11 +23,20 @@
           </select>
         </div>
         <div class="col-lg-4">
-         <input id="totalSalary" type="number" placeholder="Tổng thu nhập năm" />
+          <input id="maKH" type="number" placeholder="Nhập mã khách hàng" />
         </div>
         <div class="col-lg-4">
-          <input id="dependentPerson" type="number" placeholder="Số người phụ thuộc" />
+          <input id="soKenh" type="number" placeholder="Số kênh cao cấp" />
         </div>
+        <div class="col-lg-4" id="inputKetNoi" style="display: none">
+          <input type="number" id="soKetNoi" />
+        </div>
+      </div>
+      <button class="btn btn-primary mt-3" onclick="tinhTienCap()">
+        Tính tiền cáp
+      </button>
+      <div class="showKetQua mt-3"></div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -38,6 +47,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/js3.js"></script>
+    <script src="./js/js4.js"></script>
   </body>
 </html>
